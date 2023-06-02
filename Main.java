@@ -11,16 +11,16 @@ public class Main{
         int countFilesinconsiderate = readFile(strInconsiderate, "desconsideradas.txt");
         int coutFilesQuery = readFile(strQuery, "consulta.txt");
 
-        for(int i = 0; i < strSet.size(); i++){
-            System.out.printf("%s\n", strSet.get(i));
+        List<List<String>> strBaseFile = new ArrayList<List<String>>();
+
+        for(int i = 0; i < countFilesSet; i++){
+            List<String> s = new ArrayList<String>();
+            readFile(s, strSet.get(i));
+            strBaseFile.add(s);
         }
 
-        for(int i = 0; i < strInconsiderate.size(); i++){
-            System.out.println(strInconsiderate.get(i));
-        }
-
-        for(int i = 0; i < strQuery.size(); i++){
-            System.out.println(strQuery.get(i));
+        for(List l : strBaseFile){
+            for()
         }
     }
 
@@ -39,7 +39,8 @@ public class Main{
         return i;
     }//Fim readFile
 
+    //Remove os espaços da String
     public static String removeSpace(String S){
         return S.replace(" ", "");
-    }
+    }//Fim removeSpace
 }
