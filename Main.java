@@ -27,7 +27,7 @@ public class Main{
         //Imprime todas as palavras dos arquivos que estão em conjunto.txt
         for(int i = 0; i < countFilesSet; i++){
             for(int j = 0; j < count[i]; j++){
-                System.out.printf("%s\n", strBaseFile.get(i).get(j)); //Desse jeito podemos acessar os indices da lista de listas, get(i) é um arquivo e get(j) é uma palavra
+                System.out.printf("%s\n", strBaseFile.get(i).get(j)); //Desse jeito podemos acessar os indices da lista de listas, get(i) é um arquivo e get(j) é uma palavra do arquivo
             }
             System.out.printf("\n");
         }
