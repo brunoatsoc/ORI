@@ -1,0 +1,30 @@
+Primeiro arquivo contem o caminho para um arquivo txt que tem os caminhos dos arquivos base
+conjunto.txt
+a.txt
+b.txt
+c.txt
+
+O segundo argumento especifica o caminho de um arquivo texto que traz uma lista de palavras que devem ser desconsideradas, com uma palavra por linha.
+desconsideradas.txt
+o
+a
+e
+de
+da
+das
+do
+das
+na
+nas
+no
+nas
+em
+nao
+um
+uns
+uma
+umas
+
+O último argumento é o caminho de um arquivo contendo uma consulta a ser respondida.
+consulta.txt
+casa,engracada
