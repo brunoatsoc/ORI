@@ -52,4 +52,12 @@ public class Main{
     public static String removeSpace(String S){
         return S.replace(" ", "");
     }//Fim removeSpace
+
+    //Metodo para remover caracteres especiais(replace() remove um caractere da string)
+    public static String removeSpecialCharacter(String S){
+        S = S.replace(".", "");
+        S = S.replace(",", "");
+        
+        return S;
+    }//Fim removeSpecialCharacter
 }//Fim Classe Principal
